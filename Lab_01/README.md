@@ -1,8 +1,8 @@
 # Practical Lab Assignment - Variables/Operators
 
 1. C++ Program to print "Hello, World!".
-C++ Program to print an integer entered by the user.
-C++ Program to Add/Subtract/Multiply/Divide Two Integers.
+2. C++ Program to print an integer entered by the user.
+3. C++ Program to Add/Subtract/Multiply/Divide Two Integers.
 C++ Program to Add/Subtract/Multiply/Divide Two Integers entered by the user.
 C++ Program to Add/Subtract/Multiply/Divide two Floating Point Numbers.
 C++ Program to Compute Quotient and Remainder.
