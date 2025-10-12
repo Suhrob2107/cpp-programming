@@ -3,7 +3,7 @@
 using namespace std;
 
 
-int pascal()
+int main()
 {
     cout << "\t\t\t\t Pascal Triangle \n";
     int a[7][7] = {};
