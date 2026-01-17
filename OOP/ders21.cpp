@@ -3,16 +3,16 @@ using namespace std;   //std::cout yerinde cout yazabilmek icin
 
 class Kolon
 {
-    int * data; //Dinamik dizi tutacak pointer
-    int boyut;
+    int * data; //Dinamik dizi tutacak pointer [5, 3, 10]
+    int boyut; //dizinin kaç elemanlı olduğu 3
 public:
-    Kolon(int boyut = 1) : boyut(boyut)
+    Kolon(int boyut = 1) : boyut(boyut) //Kolon k(3)
     {
         data = new int[boyut];
         cout << boyut << " Elemanli bir dizi olusturuldu" << endl;
     }
 
-    Kolon(const Kolon& k)
+    Kolon(const Kolon& k) //Copy Constructor (Kopyalama Kurucusu)
     {
         this -> boyut = k.boyut;
         data = new int[boyut];
